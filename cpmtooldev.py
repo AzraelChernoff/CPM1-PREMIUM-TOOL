@@ -4,7 +4,7 @@ import requests
 import subprocess
 import urllib.parse
 
-__ENDPOINT_URL__: str = "https://cpmazraeldevs.squareweb.app/"
+__ENDPOINT_URL__: str = "https://cpmazraeldevs.squareweb.app/api/"
 
 class CPMTooldev:
     def __init__(self, access_key) -> None:
